@@ -1,0 +1,20 @@
+{
+  "name": "onchainjobs",
+  "version": "0.1.0",
+  "description": "onchainjobs.io ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "local": "nodemon server.js",
+    "build": "babel-node tools/build.js && npm run open:dist",
+    "heroku-prebuild": "",
+    "heroku-postbuild": "babel-node tools/build.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": "6.11.1",
+    "npm": ">=3"
+  }
+}
