@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "local": "nodemon server.js",
-    "build": "babel-node tools/build.js && npm run open:dist",
+    "build": "",
     "heroku-prebuild": "",
-    "heroku-postbuild": "babel-node tools/build.js"
+    "heroku-postbuild": ""
   },
   "dependencies": {
     "express": "^4.16.4"
