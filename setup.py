@@ -3,7 +3,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
- config = {
+config = {
     'description': 'onchainjobs.io',
     'author': 'Tim Siwula',
     'url': 'https://onchainjobs.io',
